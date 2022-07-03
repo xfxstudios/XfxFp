@@ -8,7 +8,7 @@
 
 Para usar en navegador, agrege el archivo indicando version en su head de la pagina donde vaya a capturar el fingerprint 
 <br/>
-Valide la última version para navegador en  [XfxFpBrwoser npm](https://www.npmjs.com/package/xfxfpbrowser)
+Valide la última version para navegador en  [XfxFpBrowser npm](https://www.npmjs.com/package/xfxfpbrowser)
 ```html
 <script src="https://unpkg.com/xfxfpbrowser@1.2.0/xfxFpBrowser.js"></script>
 
