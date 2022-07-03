@@ -1,0 +1,24 @@
+{
+  "name": "xfxfp",
+  "version": "3.1.0",
+  "description": "Device fingerprint generation for ReactJS and React Native",
+  "main": "./dist/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc && npm run postbundle",
+    "postbundle": "copyfiles src/**/*.js dist/"
+  },
+  "keywords": [],
+  "author": "Carlos Quintero",
+  "license": "ISC",
+  "dependencies": {
+    "buffer": "6.0.3",
+    "clientjs": "0.2.1",
+    "copyfiles": "2.4.1",
+    "crypto-js": "4.1.1",
+    "typescript": "4.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "18.0.0"
+  }
+}
