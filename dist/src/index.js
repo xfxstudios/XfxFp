@@ -4,8 +4,8 @@ const clientjs_1 = require("clientjs");
 const crypto_js_1 = require("crypto-js");
 const buffer_1 = require("buffer");
 class Xfxfp {
-    constructor(apikey) {
-        this.key = apikey;
+    constructor() {
+        this.key = "xfxfp14624982brjs";
     }
     async HMACSHA256(stringToSign, secret) {
         return crypto_js_1.CryptoJS.HmacSHA256(stringToSign, secret);
