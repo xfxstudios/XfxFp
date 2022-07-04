@@ -1,6 +1,5 @@
 export default class Xfxfp {
-    private key;
-    constructor(apikey: any);
+    constructor();
     HMACSHA256(stringToSign: any, secret: any): Promise<any>;
     _base64(value: any): Promise<string>;
     _setToken(data: any, fk: any): Promise<string>;
