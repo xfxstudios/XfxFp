@@ -16,8 +16,7 @@ Valide la última version para navegador en  [XfxFpBrowser npm](https://www.npmj
 
 En su archivo Javascript
 ```javascript
-//Inicie pasando la api key asignada
-let fp = new Xfxfp("123456789");
+let fp = new Xfxfp();
 await fp._init();
 ```
 <br/>

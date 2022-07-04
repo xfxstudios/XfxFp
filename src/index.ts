@@ -7,8 +7,8 @@ export default class Xfxfp{
     
     private key;
     
-    constructor(apikey){
-        this.key = apikey;
+    constructor(){
+        this.key = "xfxfp14624982brjs";
     }
     
     async HMACSHA256(stringToSign, secret){
