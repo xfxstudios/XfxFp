@@ -5,11 +5,7 @@ import {Buffer} from 'buffer';
 
 export default class Xfxfp{
     
-    private key;
-    
-    constructor(){
-        this.key = "xfxfp14624982brjs";
-    }
+    constructor(){}
     
     async HMACSHA256(stringToSign, secret){
         return  CryptoJS.HmacSHA256(stringToSign, secret);
@@ -144,7 +140,7 @@ export default class Xfxfp{
     async getFingerprint(){
         return new Promise(async (resolve, reject) => {
             this.getDeviceData()
-            .then((_dData) => this._setToken(_dData, this.key))
+            .then((_dData) => this._setToken(_dData, "xfxfp14624982brjs"))
             .then((tk) => { 
                 resolve(tk); 
             }).catch((e)=>{

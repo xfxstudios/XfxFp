@@ -15,7 +15,7 @@ function App() {
   
   const [fp, setFp] = useState("");
 
-  const finger = new Xfxfp("api-key");
+  const finger = new Xfxfp();
 
   useEffect(() => {
     finger.getFingerprint().then((fingerprint:any) => {

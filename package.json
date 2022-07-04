@@ -1,6 +1,6 @@
 {
   "name": "xfxfp",
-  "version": "3.4.0",
+  "version": "3.5.0",
   "description": "Device fingerprint generation for ReactJS and React Native",
   "main": "./dist/src/index.js",
   "scripts": {
